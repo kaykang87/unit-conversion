@@ -1,0 +1,85 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 11%,
+    hsl(315deg 100% 27%) 22%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(337deg 100% 43%) 44%,
+    hsl(357deg 91% 59%) 56%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(34deg 100% 53%) 78%,
+    hsl(45deg 100% 50%) 89%,
+    hsl(55deg 100% 50%) 100%
+  );
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+input[type="number"] {
+  font-weight: 800;
+  font-size: 50px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  background: transparent;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+h4 {
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.mass p {
+  padding-bottom: 3rem;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+}
+
+.top {
+  background-image: linear-gradient(
+    45deg,
+    hsl(206deg 75% 83%) 0%,
+    hsl(209deg 86% 79%) 11%,
+    hsl(211deg 94% 76%) 22%,
+    hsl(214deg 98% 73%) 33%,
+    hsl(217deg 100% 71%) 44%,
+    hsl(222deg 100% 70%) 56%,
+    hsl(230deg 97% 70%) 67%,
+    hsl(241deg 89% 71%) 78%,
+    hsl(255deg 81% 65%) 89%,
+    hsl(269deg 73% 57%) 100%
+  );
+}
+
+.bottom {
+  background: #fbf7ee;
+}

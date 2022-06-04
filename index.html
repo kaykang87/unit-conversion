@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Unit Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- top portion of container -->
+      <div class="top">
+        <h1>Metric/Imperial conversion</h1>
+        <div>
+          <input
+            id="user-input"
+            type="number"
+            placeholder="1"
+            min="1"
+            oninput="validity.valid||(value='');"
+          />
+        </div>
+      </div>
+      <!-- bottom portion of container -->
+      <div class="bottom">
+        <div class="length">
+          <h4>Length (Meter/Feet)</h4>
+          <p id="length-convert">
+            1 meters = 3.281 feet | 1 feet = .305 meters
+          </p>
+        </div>
+        <div class="volume">
+          <h4>Volume (Liters/Gallons)</h4>
+          <p id="volume-convert">
+            1 Liter = .264 Gallon | 1 gallon = 3.785 Liter
+          </p>
+        </div>
+        <div class="mass">
+          <h4>Mass (Kilograms/Pounds)</h4>
+          <p id="mass-convert">
+            1 Kilogram = .454 Pounds | 1 Pound = 2.205 Kilogram
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
