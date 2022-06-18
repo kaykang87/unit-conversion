@@ -81,5 +81,13 @@ h4 {
 }
 
 .bottom {
-  background: #fbf7ee;
+  background: rgb(245, 243, 243);
+}
+
+#convert-button {
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background-color:rgb(206, 225, 240)
 }

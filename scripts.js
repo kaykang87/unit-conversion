@@ -4,9 +4,19 @@ const vol = document.querySelector("#volume-convert");
 const mass = document.querySelector("#mass-convert");
 const userInput = document.querySelector("#user-input");
 userInput.value = "";
+const convertBtn = document.querySelector("#convert-button");
 
 // get user input when enter is pressed and convert the values
 userInput.addEventListener("keypress", calculate);
+
+// perform conversion on click
+convertBtn.addEventListener("click", function () {
+  calculateLength();
+  calculateVolume();
+  calculateMass();
+  userInput.value = "";
+  // reset();
+});
 
 // perform conversion and call each function when value is entered
 function calculate(e) {
